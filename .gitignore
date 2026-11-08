@@ -1,0 +1,25 @@
+# Secrets and personal data
+.env
+.env.*
+!.env.example
+profile.json
+
+# Runtime data: logs, application history, logged-in browser session
+data/
+*.log
+*.lock
+
+# Debug scripts and screenshots (screenshots show personal LinkedIn pages)
+debug_*.py
+debug_*.png
+
+# Local planning notes (contain personal data)
+PLAN.md
+
+# Tooling
+.claude/
+.DS_Store
+venv/
+.venv/
+__pycache__/
+*.pyc
